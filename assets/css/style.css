@@ -137,8 +137,9 @@ p {
 */
 
 .benefits h3 {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     text-align: center;
+    margin-top: 15px;
 }
 
 /* We do this once again since css functions are triggered by character. No need to add "lead", "brand", "cost" and make 3 css functions since "benefit" and "h3" themselves trigger the functions*/
@@ -165,7 +166,7 @@ p {
 
 .benefits img {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 150px;
 }
 
@@ -249,7 +250,7 @@ p {
 */
 
 .cluster h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 36px;
 }
 
