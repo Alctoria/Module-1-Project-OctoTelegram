@@ -75,6 +75,7 @@ p {
     margin-left: 20px;
 }
 
+/*
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,7 +101,25 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
+.benefits {
+    margin-right: 20px;
+    margin-bottom: 32px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+}
+
+/* There is no need to specify benefit into lead, brand, nor even cost for this css function as they all have the same code. We can simplify this by simply adding the specific code functions into the main */
+
+
+/*
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +134,16 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* We do this once again since css functions are triggered by character. No need to add "lead", "brand", "cost" and make 3 css functions since "benefit" and "h3" themselves trigger the functions*/
+
+/*
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +161,17 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* We do this once again since css functions are triggered by character. No need to add lead-brand-cost since benefit-img itself triggers the functions*/
+
+/*
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +198,20 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
+.cluster {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Same theory, but this time, there is no same character to group, so we create a new section bracket and classify it to group these css codes together  */
+
+/*
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +223,15 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
+.cluster img {
+    max-height: 200px;
+}
+
+/* Once again, we do the same thing yet group them together under "cluster" */
+
+/*
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,6 +246,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
+
+.cluster h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Once again, we do the same thing yet group them together under "cluster" */
 
 .footer {
     padding: 30px;
