@@ -140,6 +140,7 @@ p {
     margin-bottom: 50px;
     text-align: center;
     margin-top: 15px;
+    /* creation of top margin in order to create a website visual that is similar to the README requirements  */
 }
 
 /* We do this once again since css functions are triggered by character. No need to add "lead", "brand", "cost" and make 3 css functions since "benefit" and "h3" themselves trigger the functions*/
